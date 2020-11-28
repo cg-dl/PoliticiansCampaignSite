@@ -8,7 +8,7 @@
 </head>
 <body>
     <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="{{url('')}}">Political Campaign</a>
+        <a class="navbar-brand" href="">Political Campaign</a>
     </nav>
 
     <div class="mt-1 ml-3">
