@@ -17,4 +17,8 @@ class UserController extends Controller
     public function sign_up_candidate() {
         return view('sign_up_candidate');
     }
+
+    public function home() {
+        return view('home');
+    }
 }
