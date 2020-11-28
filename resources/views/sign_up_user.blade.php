@@ -8,7 +8,7 @@
 </head>
 <body>
     <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="{{url('')}}">Political Campaign</a>
+        <a class="navbar-brand" href="">Political Campaign</a>
     </nav>
     <h2 class="mt-2 ml-3">Citizen Registration Form</h2>
     <div class="mt-1 ml-3">
