@@ -11,6 +11,22 @@
         <title>@yield('title') | e-Campaign</title>
     </head>
     <body>
+        <header>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                    <a class="navbar-brand" href="#">e-Campaign</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Meet the Candidates</a></li>
+                    <li><a href="#">Vote!</a></li>
+                    <li><a href="#">Surveys</a></li>
+                    <li><a href="{{url('/forum')}}">Forum</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
         @yield('content')
     </body>
 </html>
