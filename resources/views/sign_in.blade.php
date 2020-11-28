@@ -27,7 +27,9 @@
             </div>
             <div class="row">
                 <div class="form-group col-lg-3">
-                    <button type="submit" class="btn btn-primary">Log in</button>
+                    <a href="{{url('home')}}">
+                        <button type="button" class="btn btn-primary">Log in</button>
+                    </a>
                 </div>
             </div>
             <div class="row">
