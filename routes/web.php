@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('', 'UserController@sign_in');
+Route::get('/', 'UserController@sign_in');
 Route::get('sign_up_user', 'UserController@sign_up_user');
 Route::get('sign_up_candidate', 'UserController@sign_up_candidate');
 Route::get('home', 'UserController@home');
