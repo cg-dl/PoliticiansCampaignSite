@@ -15,10 +15,10 @@ use App\Http\Controllers\UserController;
 */
 
 
-Route::get('/', 'UserController@sign_in');
-Route::get('sign_up_user', 'UserController@sign_up_user');
-Route::get('sign_up_candidate', 'UserController@sign_up_candidate');
-Route::get('home', 'UserController@home');
+Route::get('/', [UserController::class, 'sign_in']);
+Route::get('sign_up_user', [UserController::class, 'sign_up_user']);
+Route::get('sign_up_candidate', [UserController::class, 'sign_up_candidate']);
+Route::get('home', [UserController::class, 'home']);
 
 Route::get('/forum', function(){
     return view('forum');
