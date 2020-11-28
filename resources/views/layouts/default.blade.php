@@ -10,22 +10,31 @@
                 crossorigin="anonymous">
         <title>@yield('title') | e-Campaign</title>
     </head>
-    <body>
+    <body onload="active(@yield('location'))">
         <header>
-            <nav class="navbar navbar-default">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                    <a class="navbar-brand" href="#">e-Campaign</a>
-                    </div>
-                    <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Meet the Candidates</a></li>
-                    <li><a href="#">Vote!</a></li>
-                    <li><a href="#">Surveys</a></li>
-                    <li><a href="{{url('/forum')}}">Forum</a></li>
-                    </ul>
-                </div>
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <ul class="navbar-nav">
+                    <a class="navbar-brand" href="{{url('/')}}">e-Campaign</a>
+                    <li class="nav-item" id="home">
+                        <a class="nav-link" href="{{url('/')}}">Home</a>
+                    </li>
+                    <li class="nav-item" id="vote">
+                        <a class="nav-link" href="#">Vote!</a>
+                    </li>
+                    <li class="nav-item" id="meet">
+                        <a class="nav-link" href="#">Meet our Candidates</a>
+                    </li>
+                    <li class="nav-item" id="forum">
+                        <a class="nav-link" href="{{url('/forum')}}">Forum</a>
+                    </li>
+                </ul>
             </nav>
+            <script>
+                function active(id)
+                {
+                    id.className += " active";
+                }
+            </script>
         </header>
         @yield('content')
     </body>
