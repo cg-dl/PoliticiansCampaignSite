@@ -28,6 +28,15 @@
                         <a class="nav-link" href="{{url('/forum')}}">Forum</a>
                     </li>
                 </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item" id="login-user">
+                        <a class="nav-link" href="#">Login as User</a>
+                    </li>
+                    <li class="nav-item" id="login-can">
+                        <a class="nav-link" href="#">Login as Candidate</a>
+                    </li>
+
+                </ul>
             </nav>
             <script>
                 function active(id)
