@@ -2,6 +2,8 @@
 
 @section('title', "Forum")
 
+@section('location', "forum")
+
 @section('content')
     <h1 class="w-25 mt-4 mx-auto">Forum Discussion</h1>
     <div class="row">
