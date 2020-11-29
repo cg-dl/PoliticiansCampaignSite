@@ -9,7 +9,7 @@
                 <a class="nav-link" href="#">Vote!</a>
             </li>
             <li class="nav-item" id="meet">
-                <a class="nav-link" href="#">Meet our Candidates</a>
+                <a class="nav-link" href="#">Meet the Candidates</a>
             </li>
             <li class="nav-item" id="forum">
                 <a class="nav-link" href="{{url('/forum')}}">Forum</a>
