@@ -4,6 +4,8 @@
 
 @section('location', "forum")
 
+@extends('layouts.navbar')
+
 @section('content')
     <h1 class="w-25 mt-4 mx-auto">Forum Discussion</h1>
     <div class="row">

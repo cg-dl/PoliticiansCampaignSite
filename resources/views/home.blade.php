@@ -4,6 +4,8 @@
 
 @section('location', "home")
 
+@extends('layouts.navbar')
+
 @section('content')
 
 
