@@ -23,3 +23,7 @@ Route::get('/home', [UserController::class, 'home']);
 Route::get('/forum', function(){
     return view('forum');
 });
+
+Route::get('/forum/post/{id}', function(){
+    return view('forum-post');
+});
