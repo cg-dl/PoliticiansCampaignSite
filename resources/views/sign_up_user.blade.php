@@ -24,6 +24,18 @@
             </div>
             <div class="row">
                 <div class="form-group col-lg-3">
+                    <label for="code">Province</label>
+                    <input type="text" class="form-control input-normal">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-lg-3">
+                    <label for="code">City / District</label>
+                    <input type="text" class="form-control input-normal">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-lg-3">
                     <label for="code">Password</label>
                     <input type="password" class="form-control input-normal">
                 </div>

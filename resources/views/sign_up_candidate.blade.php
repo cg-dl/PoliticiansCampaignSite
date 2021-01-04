@@ -2,7 +2,7 @@
 @section('title', "Sign Up")
 
 @section('content')
-    <header>
+<header>
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
             <a class="navbar-brand" href="{{url('/')}}">e-Campaign</a>
         </nav>
@@ -25,6 +25,25 @@
             <div class="row">
                 <div class="form-group col-lg-3">
                     <label for="code">Party</label>
+                    <input type="text" class="form-control input-normal">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-lg-3">
+                    <label for="code">Biodata</label> <br>
+                    <p style="font-size:80%;">* Please upload your biodata according to the template *</p>
+                    <input type="file" id="myFile" name="filename">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-lg-3">
+                    <label for="code">Province</label>
+                    <input type="text" class="form-control input-normal">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-lg-3">
+                    <label for="code">City / District</label>
                     <input type="text" class="form-control input-normal">
                 </div>
             </div>
