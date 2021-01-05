@@ -29,7 +29,7 @@
             </div>
         </li>
         <ul class="list-group w-75 mx-auto mt-3">
-            <h4 class="mb-1">Comments</h4>
+            <h4 class="mb-1">Replies</h4>
             <li class="list-group-item">
                 <div class="d-flex justify-content-between align-items-center">
                     <h5 class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5></a>
