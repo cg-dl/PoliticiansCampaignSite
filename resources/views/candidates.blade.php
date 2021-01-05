@@ -42,7 +42,9 @@
                         <h5 class="card-title">Bowo & David</h5>
                         <p class="card-text">"Indonesia Bangkit !"</p>
                         <p class="card-text">Partai Persatuan Indonesia</p>
-                        <button class="btn btn-secondary">Details</button>
+                        <a href="{{url('/candidates2')}}">
+                            <button class="btn btn-secondary">Details</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -53,7 +55,9 @@
                         <h5 class="card-title">Bob & Putu</h5>
                         <p class="card-text">"Sukseskan Indonesia"</p>
                         <p class="card-text">Partai Demokrasi Pancasila</p>
-                        <button class="btn btn-secondary">Details</button>
+                        <a href="{{url('/candidates3')}}">
+                            <button class="btn btn-secondary">Details</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -64,7 +68,9 @@
                         <h5 class="card-title">Jojo & Michael</h5>
                         <p class="card-text">"Untuk Indonesia yang lebih pintar"</p>
                         <p class="card-text">Partai Aman Sejahtera</p>
-                        <button class="btn btn-secondary">Details</button>
+                        <a href="{{url('/candidates4')}}">
+                            <button class="btn btn-secondary">Details</button>
+                        </a>
                     </div>
                 </div>
                 </div>

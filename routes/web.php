@@ -33,6 +33,10 @@ Route::get('/vote', function () {
     return view('vote');
 });
 
+Route::get('/campaigns', function () {
+    return view('campaigns');
+});
+
 Route::get('/forum/post/{id}', function () {
     return view('forum-post');
 });

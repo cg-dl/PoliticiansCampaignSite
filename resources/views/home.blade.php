@@ -45,16 +45,36 @@
         </a>
     </div>
     <div class="content" style="display:flex;justify-content: space-between; padding:25px;">
-        <div>
+        <div style="max-width:65%;">
             <h3>Candidates Campaign</h3>
-
+            <ul class="list-group w-100 mx-auto mt-3">
+                <li class="list-group-item border-0">
+                    <h4 class="text-center">The Third Placeholder Campaign</h4>
+                    <small class="mb-0 font-italic">by Budi and Anton</small>
+                    <small class="mb-0">1 day ago</small>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at sodales nunc. Nullam gravida ornare ipsum, vitae sodales sem vulputate vel. Nunc at enim eu diam faucibus lobortis. Ut molestie augue augue, at fringilla mi tempus vel. Quisque malesuada nibh neque, eget vestibulum ex molestie a. Mauris sed dui sit amet sapien consequat pharetra. Etiam sed libero congue tortor rhoncus convallis et sed magna. Sed sollicitudin, urna ac rhoncus malesuada, nunc felis pharetra purus, vel bibendum quam felis sit amet mauris.
+                    </p>
+                    <a href="" class="btn btn-secondary">Read more</a>
+                </li>
+                <li class="list-group-item border-0">
+                    <h4 class="text-center">The Second Placeholder Campaign</h4>
+                    <small class="mb-0 font-italic">by Bowo and David</small>
+                    <small class="mb-0">3 day ago</small>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at sodales nunc. Nullam gravida ornare ipsum, vitae sodales sem vulputate vel. Nunc at enim eu diam faucibus lobortis. Ut molestie augue augue, at fringilla mi tempus vel. Quisque malesuada nibh neque, eget vestibulum ex molestie a. Mauris sed dui sit amet sapien consequat pharetra. Etiam sed libero congue tortor rhoncus convallis et sed magna. Sed sollicitudin, urna ac rhoncus malesuada, nunc felis pharetra purus, vel bibendum quam felis sit amet mauris.
+                    </p>
+                    <a href="" class="btn btn-secondary">Read more</a>
+                </li>
+                <a class="btn btn-primary" href="{{url('/campaigns')}}">View all campaigns</a>
+            </ul>
         </div>
         <div style="max-width:30%;">
             <h3>Surveys</h3>
             <ul class="list-group w-100 mx-auto mt-3">
                 <li class="list-group-item">
-                    <h4 class="mb-1">What is the most important aspect of life for you that the candidates need to focus on?</h4>
-                    <small class="mb-0">by Lorem ipsum Polls</small>
+                    <h4 class="mb-0">What is the most important aspect of life for you that the candidates need to focus on?</h4>
+                    <small class="mb-0 font-italic">by Lorem ipsum Polls</small>
                     <div class="radio">
                         <label><input type="radio" name="optradio"> Education</label>
                     </div>
@@ -67,8 +87,8 @@
                     <button class="btn btn-secondary">Submit</button> 
                 </li>
                 <li class="list-group-item">
-                    <h4 class="mb-1">What is the most important problem in society for you that the candidates need to solve soon?</h4>
-                    <small class="mb-0">by Lorem ipsum Polls</small>
+                    <h4 class="mb-0">What is the most important problem in society for you that the candidates need to solve soon?</h4>
+                    <small class="mb-0 font-italic">by Lorem ipsum Polls</small>
                     <div class="radio">
                         <label><input type="radio" name="optradio"> Lack of proper schools/low teaching quality in school</label>
                     </div>
