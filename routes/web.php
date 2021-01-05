@@ -19,11 +19,12 @@ Route::get('/', [UserController::class, 'sign_in']);
 Route::get('/sign_up_user', [UserController::class, 'sign_up_user']);
 Route::get('/sign_up_candidate', [UserController::class, 'sign_up_candidate']);
 Route::get('/home', [UserController::class, 'home']);
+Route::get('/candidates', [UserController::class, 'candidates']);
 
-Route::get('/forum', function(){
+Route::get('/forum', function () {
     return view('forum');
 });
 
-Route::get('/forum/post/{id}', function(){
+Route::get('/forum/post/{id}', function () {
     return view('forum-post');
 });
