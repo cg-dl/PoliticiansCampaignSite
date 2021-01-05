@@ -7,7 +7,10 @@
 @section('content')
     @include('layouts.navbar')
     <div style="padding:25px;">
-        <h3>Candidates Campaign</h3>
+        <div class="d-flex justify-content-between align-items-center">
+            <h3>Candidates Campaign</h3>
+            <button class="btn btn-primary">+ Add Campaign</a>
+        </div>
         <ul class="list-group w-100 mx-auto mt-3">
             <li class="list-group-item border-0">
                 <h4 class="text-center">The Third Placeholder Campaign</h4>
