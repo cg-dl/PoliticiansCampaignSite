@@ -12,7 +12,7 @@
         <form>
             <div class="row">
                 <div class="form-group col-lg-3">
-                    <label for="code">Full Name</label>
+                    <label for="code">National ID (NIK)</label>
                     <input type="text" class="form-control">
                 </div>
             </div>
