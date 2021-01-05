@@ -8,6 +8,19 @@
     @include('layouts.navbar')
 
     <div class="container">
+        <div class="row justify-content-around w-100" style="margin:25px;padding:10px;">
+            <h2>Election type:</h2>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   Type
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+                    <button class="dropdown-item" type="button">Governor</button>
+                    <button class="dropdown-item" type="button">Mayor/Regent</button>
+                </div>
+            </div>
+        </div>
         <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
                 <div class="card">

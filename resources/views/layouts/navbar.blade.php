@@ -1,6 +1,6 @@
 <header>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <ul class="navbar-nav">
+    <nav class="navbar navbar-expand bg-dark navbar-dark">
+        <ul class="navbar-nav mr-auto">
             <a class="navbar-brand" href="{{url('/home')}}">e-Campaign</a>
             <li class="nav-item" id="home">
                 <a class="nav-link" href="{{url('/home')}}">Home</a>
@@ -13,6 +13,11 @@
             </li>
             <li class="nav-item" id="forum">
                 <a class="nav-link" href="{{url('/forum')}}">Forum</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item" style="color:rgba(255,255,255,.5);">
+                Location: Jakarta, Indonesia
             </li>
         </ul>
     </nav>
