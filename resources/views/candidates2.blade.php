@@ -14,6 +14,7 @@
                 <p>Lahir : 16-09-1989</p>
                 <p>Asal : Yogyakarta</p>
                 <p>Partai : Persatuan Indonesia</p>
+                <p>Biodata : Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
         </div>
 
@@ -24,6 +25,7 @@
                 <p>Lahir : 26-10-1979</p>
                 <p>Asal : Batam</p>
                 <p>Partai : Persatuan Indonesia</p>
+                <p>Biodata : Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
         </div>
     </div>

@@ -14,6 +14,7 @@
                 <p>Lahir : 16-10-1969</p>
                 <p>Asal : Bogor</p>
                 <p>Partai : Aman Sejahtera</p>
+                <p>Biodata : Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
         </div>
 
@@ -24,6 +25,7 @@
                 <p>Lahir : 06-11-1989</p>
                 <p>Asal : Banten</p>
                 <p>Partai : Aman Sejahtera</p>
+                <p>Biodata : Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
         </div>
     </div>

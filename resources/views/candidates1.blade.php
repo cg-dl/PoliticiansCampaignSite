@@ -14,6 +14,7 @@
                 <p>Lahir : 26-09-1989</p>
                 <p>Asal : Jakarta</p>
                 <p>Partai : Indonesia Bisa</p>
+                <p>Biodata : Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
         </div>
 
@@ -24,6 +25,7 @@
                 <p>Lahir : 26-09-1979</p>
                 <p>Asal : Surakarta</p>
                 <p>Partai : Indonesia Bisa</p>
+                <p>Biodata : Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
         </div>
     </div>
