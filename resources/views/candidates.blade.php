@@ -1,6 +1,6 @@
 @extends('layouts.default')
 
-@section('title', "candidates")
+@section('title', "Meet the Candidates")
 
 @section('location', "meet")
 
