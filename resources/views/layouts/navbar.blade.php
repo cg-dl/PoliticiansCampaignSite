@@ -6,7 +6,7 @@
                 <a class="nav-link" href="{{url('/home')}}">Home</a>
             </li>
             <li class="nav-item" id="vote">
-                <a class="nav-link" href="#">Vote!</a>
+                <a class="nav-link" href="{{url('/vote')}}">Vote!</a>
             </li>
             <li class="nav-item" id="meet">
                 <a class="nav-link" href="{{url('/candidates')}}">Meet the Candidates</a>

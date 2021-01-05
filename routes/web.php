@@ -25,6 +25,10 @@ Route::get('/forum', function () {
     return view('forum');
 });
 
+Route::get('/vote', function () {
+    return view('vote');
+});
+
 Route::get('/forum/post/{id}', function () {
     return view('forum-post');
 });
