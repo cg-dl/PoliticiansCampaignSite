@@ -30,4 +30,24 @@ class UserController extends Controller
     {
         return view('candidates');
     }
+
+    public function candidates1()
+    {
+        return view('candidates1');
+    }
+
+    public function candidates2()
+    {
+        return view('candidates2');
+    }
+
+    public function candidates3()
+    {
+        return view('candidates3');
+    }
+
+    public function candidates4()
+    {
+        return view('candidates4');
+    }
 }

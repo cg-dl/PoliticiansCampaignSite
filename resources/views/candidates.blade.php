@@ -16,7 +16,9 @@
                     <h5 class="card-title">Budi & Anton</h5>
                     <p class="card-text">"Bersama membangun Indonesia"</p>
                     <p class="card-text">Partai Indonesia Bisa</p>
-                    <button class="btn btn-secondary">Details</button>
+                    <a href="{{url('/candidates1')}}">
+                        <button class="btn btn-secondary">Details</button>
+                    </a>
                     </div>
                 </div>
             </div>

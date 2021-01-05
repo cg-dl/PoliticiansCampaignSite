@@ -20,6 +20,10 @@ Route::get('/sign_up_user', [UserController::class, 'sign_up_user']);
 Route::get('/sign_up_candidate', [UserController::class, 'sign_up_candidate']);
 Route::get('/home', [UserController::class, 'home']);
 Route::get('/candidates', [UserController::class, 'candidates']);
+Route::get('/candidates1', [UserController::class, 'candidates1']);
+Route::get('/candidates2', [UserController::class, 'candidates2']);
+Route::get('/candidates3', [UserController::class, 'candidates3']);
+Route::get('/candidates4', [UserController::class, 'candidates4']);
 
 Route::get('/forum', function () {
     return view('forum');
