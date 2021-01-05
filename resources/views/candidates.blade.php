@@ -2,7 +2,7 @@
 
 @section('title', "candidates")
 
-@section('location', "candidates")
+@section('location', "meet")
 
 @section('content')
     @include('layouts.navbar')
