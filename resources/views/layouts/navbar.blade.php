@@ -20,7 +20,7 @@
         </ul>
         <ul class="navbar-nav">
             <li class="nav-item" style="color:rgba(255,255,255,.5);">
-                Location: Jakarta, Indonesia
+                Location: West Jakarta, Jakarta
             </li>
         </ul>
     </nav>
