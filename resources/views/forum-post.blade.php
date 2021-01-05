@@ -14,6 +14,7 @@
             <div class="d-flex justify-content-between align-items-center">
                 <h4 class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
             </div>
+            <small class="mb-0 font-italic">by Lorem</small>
             <small class="mb-0">3 days ago</small>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula turpis et auctor interdum. Integer ut purus nulla. Aliquam tempor tellus vitae risus cursus convallis. Quisque in est in lectus laoreet scelerisque maximus nec urna. Nam scelerisque iaculis justo varius ornare. Nunc nec mattis augue. Phasellus at ultricies augue, id fermentum metus. Sed eu volutpat ex, in bibendum enim. Aliquam quis tellus id nibh hendrerit mollis. Aenean faucibus sem metus, sed interdum leo dignissim ut.
@@ -32,7 +33,7 @@
             <h4 class="mb-1">Replies</h4>
             <li class="list-group-item">
                 <div class="d-flex justify-content-between align-items-center">
-                    <h5 class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                    <h5 class="mb-1">Ipsum replied:</h5>
                 </div>
                 <small class="mb-0">1 days ago</small>
                 <p>
@@ -41,7 +42,7 @@
             </li>
             <li class="list-group-item">
                 <div class="d-flex justify-content-between align-items-center">
-                    <h5 class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                    <h5 class="mb-1">Dolor replied:</h5>
                 </div>
                 <small class="mb-0">1 days ago</small>
                 <p>

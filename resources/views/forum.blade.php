@@ -35,6 +35,7 @@
                 <a href="{{url('/forum/post/1')}}"><h4 class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4></a>
                 <span class="badge badge-primary badge-pill">13</span>
             </div>
+            <small class="mb-0 font-italic">by Lorem</small>
             <small class="mb-0">1 days ago</small>
         </li>
         <li class="list-group-item">
@@ -42,6 +43,7 @@
                 <a href="{{url('/forum/post/2')}}"><h4 class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4></a>
                 <span class="badge badge-primary badge-pill">3</span>
             </div>
+            <small class="mb-0 font-italic">by Lorem</small>
             <small class="mb-0">2 days ago</small>
         </li>
         <li class="list-group-item">
@@ -49,6 +51,7 @@
                 <a href="{{url('/forum/post/3')}}"><h4 class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4></a>
                 <span class="badge badge-primary badge-pill">31</span>
             </div>
+            <small class="mb-0 font-italic">by Lorem</small>
             <small class="mb-0">3 days ago</small>
         </li>
     </ul>

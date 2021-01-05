@@ -73,7 +73,7 @@
             <h4 class="mb-1">Replies</h4>
             <li class="list-group-item">
                 <div class="d-flex justify-content-between align-items-center">
-                    <h5 class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                    <h5 class="mb-1">Lorem wrote:</h5>
                     <h5>☆☆☆☆</h5>
                 </div>
                 <small class="mb-0">1 days ago</small>
@@ -83,7 +83,7 @@
             </li>
             <li class="list-group-item">
                 <div class="d-flex justify-content-between align-items-center">
-                    <h5 class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                    <h5 class="mb-1">Ipsum wrote:</h5>
                     <h5>☆☆</h5>
                 </div>
                 <small class="mb-0">1 days ago</small>
