@@ -40,3 +40,7 @@ Route::get('/campaigns', function () {
 Route::get('/forum/post/{id}', function () {
     return view('forum-post');
 });
+
+Route::get('/campaigns/{id}', function () {
+    return view('campaigns-placeholder');
+});

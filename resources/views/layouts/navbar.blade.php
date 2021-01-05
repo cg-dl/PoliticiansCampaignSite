@@ -11,7 +11,7 @@
             <li class="nav-item" id="meet">
                 <a class="nav-link" href="{{url('/candidates')}}">Meet the Candidates</a>
             </li>
-            <li class="nav-item" id="campaign">
+            <li class="nav-item" id="campaigns">
                 <a class="nav-link" href="{{url('/campaigns')}}">Campaigns</a>
             </li>
             <li class="nav-item" id="forum">

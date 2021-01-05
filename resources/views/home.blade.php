@@ -14,25 +14,31 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
+            <a href="{{url('/campaigns/3')}}">
                 <img class="d-block w-100" src="https://via.placeholder.com/1000x350.png" alt="First slide">
                 <div class="carousel-caption d-none d-md-block" style="background: rgba(0, 0, 0, 0.35);max-width: 100%;width:100%;left:0; padding:15px;">
                     <h5>The Third Placeholder Campaign</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at sodales nunc. Nullam gravida ornare ipsum, vitae sodales sem vulputate vel. Nunc at enim eu diam faucibus lobortis. Ut molestie augue augue, at fringilla mi tempus vel. Quisque malesuada nibh neque, eget vestibulum ex molestie a. Mauris sed dui sit amet sapien consequat pharetra. Etiam sed libero congue tortor rhoncus convallis et sed magna. Sed sollicitudin, urna ac rhoncus malesuada, nunc felis pharetra purus, vel bibendum quam felis sit amet mauris.</p>
                 </div>
+            </a>
             </div>
             <div class="carousel-item">
+            <a href="{{url('/campaigns/2')}}">
                 <img class="d-block w-100" src="https://via.placeholder.com/1000x350.png" alt="Second slide">
                 <div class="carousel-caption d-none d-md-block" style="background: rgba(0, 0, 0, 0.35);max-width: 100%;width:100%;left:0; padding:15px;">
                     <h5>The Second Placeholder Campaign</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at sodales nunc. Nullam gravida ornare ipsum, vitae sodales sem vulputate vel. Nunc at enim eu diam faucibus lobortis. Ut molestie augue augue, at fringilla mi tempus vel. Quisque malesuada nibh neque, eget vestibulum ex molestie a. Mauris sed dui sit amet sapien consequat pharetra. Etiam sed libero congue tortor rhoncus convallis et sed magna. Sed sollicitudin, urna ac rhoncus malesuada, nunc felis pharetra purus, vel bibendum quam felis sit amet mauris.</p>
                 </div>
+            </a>
             </div>
             <div class="carousel-item">
+            <a href="{{url('/campaigns/1')}}">
                 <img class="d-block w-100" src="https://via.placeholder.com/1000x350.png" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block" style="background: rgba(0, 0, 0, 0.35);max-width: 100%;width:100%;left:0; padding:15px;">
                     <h5>The First Placeholder Campaign</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at sodales nunc. Nullam gravida ornare ipsum, vitae sodales sem vulputate vel. Nunc at enim eu diam faucibus lobortis. Ut molestie augue augue, at fringilla mi tempus vel. Quisque malesuada nibh neque, eget vestibulum ex molestie a. Mauris sed dui sit amet sapien consequat pharetra. Etiam sed libero congue tortor rhoncus convallis et sed magna. Sed sollicitudin, urna ac rhoncus malesuada, nunc felis pharetra purus, vel bibendum quam felis sit amet mauris.</p>
                 </div>
+            </a>
             </div>
         </div>
         <a class="carousel-control-prev" href="#campaign-carousel" role="button" data-slide="prev">
@@ -55,7 +61,7 @@
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at sodales nunc. Nullam gravida ornare ipsum, vitae sodales sem vulputate vel. Nunc at enim eu diam faucibus lobortis. Ut molestie augue augue, at fringilla mi tempus vel. Quisque malesuada nibh neque, eget vestibulum ex molestie a. Mauris sed dui sit amet sapien consequat pharetra. Etiam sed libero congue tortor rhoncus convallis et sed magna. Sed sollicitudin, urna ac rhoncus malesuada, nunc felis pharetra purus, vel bibendum quam felis sit amet mauris.
                     </p>
-                    <a href="" class="btn btn-secondary">Read more</a>
+                    <a href="{{url('/campaigns/3')}}" class="btn btn-secondary">Read more</a>
                 </li>
                 <li class="list-group-item border-0">
                     <h4 class="text-center">The Second Placeholder Campaign</h4>
@@ -64,7 +70,7 @@
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at sodales nunc. Nullam gravida ornare ipsum, vitae sodales sem vulputate vel. Nunc at enim eu diam faucibus lobortis. Ut molestie augue augue, at fringilla mi tempus vel. Quisque malesuada nibh neque, eget vestibulum ex molestie a. Mauris sed dui sit amet sapien consequat pharetra. Etiam sed libero congue tortor rhoncus convallis et sed magna. Sed sollicitudin, urna ac rhoncus malesuada, nunc felis pharetra purus, vel bibendum quam felis sit amet mauris.
                     </p>
-                    <a href="" class="btn btn-secondary">Read more</a>
+                    <a href="{{url('/campaigns/2')}}" class="btn btn-secondary">Read more</a>
                 </li>
                 <a class="btn btn-primary" href="{{url('/campaigns')}}">View all campaigns</a>
             </ul>
