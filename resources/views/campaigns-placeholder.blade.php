@@ -69,5 +69,28 @@
             <input type="text" class="form-control" placeholder="Write your feedback here">
             <button class="btn btn-secondary">Submit</button>
         </div>
+        <ul class="list-group w-75 mr-auto mt-3">
+            <h4 class="mb-1">Replies</h4>
+            <li class="list-group-item">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5 class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                    <h5>☆☆☆☆</h5>
+                </div>
+                <small class="mb-0">1 days ago</small>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula turpis et auctor interdum. Integer ut purus nulla. Aliquam tempor tellus vitae risus cursus convallis. Quisque in est in lectus laoreet scelerisque maximus nec urna. Nam scelerisque iaculis justo varius ornare. Nunc nec mattis augue. Phasellus at ultricies augue, id fermentum metus. Sed eu volutpat ex, in bibendum enim. Aliquam quis tellus id nibh hendrerit mollis. Aenean faucibus sem metus, sed interdum leo dignissim ut.
+                </p>
+            </li>
+            <li class="list-group-item">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5 class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                    <h5>☆☆</h5>
+                </div>
+                <small class="mb-0">1 days ago</small>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula turpis et auctor interdum. Integer ut purus nulla. Aliquam tempor tellus vitae risus cursus convallis. Quisque in est in lectus laoreet scelerisque maximus nec urna. Nam scelerisque iaculis justo varius ornare. Nunc nec mattis augue. Phasellus at ultricies augue, id fermentum metus. Sed eu volutpat ex, in bibendum enim. Aliquam quis tellus id nibh hendrerit mollis. Aenean faucibus sem metus, sed interdum leo dignissim ut.
+                </p>
+            </li>
+        </ul>
     </div>
 @stop

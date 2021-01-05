@@ -12,7 +12,7 @@
     <ul class="list-group w-75 mx-auto mt-3">
         <li class="list-group-item">
             <div class="d-flex justify-content-between align-items-center">
-                <h4 class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4></a>
+                <h4 class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
             </div>
             <small class="mb-0">3 days ago</small>
             <p>
@@ -32,7 +32,7 @@
             <h4 class="mb-1">Replies</h4>
             <li class="list-group-item">
                 <div class="d-flex justify-content-between align-items-center">
-                    <h5 class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5></a>
+                    <h5 class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
                 </div>
                 <small class="mb-0">1 days ago</small>
                 <p>
@@ -41,7 +41,7 @@
             </li>
             <li class="list-group-item">
                 <div class="d-flex justify-content-between align-items-center">
-                    <h5 class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5></a>
+                    <h5 class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
                 </div>
                 <small class="mb-0">1 days ago</small>
                 <p>
